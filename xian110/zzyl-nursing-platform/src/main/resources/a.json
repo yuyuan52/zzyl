@@ -1,0 +1,37 @@
+{
+   //  总检日期
+  "totalCheckDate": "YYYY-MM-DD",
+  "healthAssessment": {
+    "riskLevel": "healthy/caution/risk/danger/severeDanger",  //风险等级
+    "healthIndex": XX.XX   //健康评分
+  },
+  "riskDistribution": {  //风险等级具体的分数
+    "healthy": 80.88,
+    "caution": XX.XX,
+    "risk": XX.XX,
+    "danger": XX.XX,
+    "severeDanger": XX.XX
+  },
+  "abnormalData": [  //异常分析列表
+    {
+      "conclusion": "异常数据的结论",
+      "examinationItem": "体检项目名称",
+      "result": "检查结果",
+      "referenceValue": "参考值",
+      "unit": "单位",
+      "interpret": "对于异常的结论进一步详细的说明",
+      "advice": "针对于这一项的异常，给出一些健康的建议"
+    }
+  ],
+  "systemScore": {  //人体八大系统打分
+    "breathingSystem": XX,
+    "digestiveSystem": XX,
+    "endocrineSystem": XX,
+    "immuneSystem": XX,
+    "circulatorySystem": XX,
+    "urinarySystem": XX,
+    "motionSystem": XX,
+    "senseSystem": XX
+  },
+  "summarize": "体检报告的总结"
+}
